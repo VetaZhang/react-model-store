@@ -70,6 +70,14 @@ export function userModel(modelName) {
           set(obj) {
             const value = lastValueRef.current;
             setValue({ ...value, ...obj });
+          },
+          get(fieldName) {
+            const value = lastValueRef.current;
+            if (fieldName) {
+              return value[fieldName];
+            } else {
+              return value;
+            }
           }
         };
         val(firstParam, ...restParams);
