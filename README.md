@@ -1,10 +1,11 @@
-# react-model-store
+# React-model-store
 
 ![Static Badge](https://img.shields.io/badge/React->=16.8.0-blue)
-![Static Badge](https://img.shields.io/badge/version-0.0.1)
+![Static Badge](https://img.shields.io/badge/version-0.0.1-green)
+![Documentation](https://img.shields.io/badge/documentation-yes-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 React-model-store is an easy-to-use state management tool for React.
-
 
 ```javascript
 import { store } from 'react-model-store';
